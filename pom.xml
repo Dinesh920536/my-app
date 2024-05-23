@@ -37,12 +37,13 @@
     <repository>
         <id>central</id>
         <name>5e8ea5e032f55ce-releases</name>
-        <url>http://localhost:8082/artifactory/my-app-release</url>
+        <url>http://localhost:8081/artifactory/my-app-release</url>
     </repository>
+
     <snapshotRepository>
         <id>snapshots</id>
         <name>5e8ea5e032f55ce-snapshots</name>
-        <url>http://localhost:8082/artifactory/my-app-snapshot</url>
+        <url>http://localhost:8081/artifactory/my-app-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 	
