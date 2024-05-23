@@ -14,6 +14,12 @@
 		    <artifactId>poi</artifactId>
 		    <version>3.7</version>
 		</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+		<dependency>
+    		<groupId>org.apache.maven.plugins</groupId>
+    	<artifactId>maven-deploy-plugin</artifactId>
+    	<version>3.1.1</version>
+		</dependency>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -68,6 +74,11 @@
 	 <groupId>org.sonarsource.scanner.maven</groupId>
          <artifactId>sonar-maven-plugin</artifactId>
         <version>3.6.0.1398</version>
+	</plugin>
+	<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-deploy-plugin</artifactId>
+    <version>3.1.1</version>
 	</plugin>
     </plugins>
   </pluginManagement>
