@@ -40,18 +40,20 @@
               </dependency>
 	</dependencies>
 	<distributionManagement>
-   <repository>
-        <id>central</id>
-        <name>5e8ea5e032f55ce-releases</name>
-        <url>http://localhost:8082/artifactory/my-app-release</url>
-    </repository>
+    		<repository>
+        		<id>central</id>
+       			 <name>6dd87e8310705a2-releases</name>
+        		<url>http://localhost:8081/artifactory/libs-release</url>
+    		</repository>
+	</distributionManagement>
 
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>5e8ea5e032f55ce-snapshots</name>
-        <url>http://localhost:8082/artifactory/my-app-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
+   <distributionManagement>
+         <snapshotRepository>
+                 <id>snapshots</id>
+        	 <name>6dd87e8310705a2-snapshots</name>
+       		 <url>http://localhost:8081/artifactory/libs-snapshot</url>
+    	</snapshotRepository>
+    </distributionManagement>
 	
 <build>
  <pluginManagement>
